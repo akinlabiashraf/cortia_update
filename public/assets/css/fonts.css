@@ -1,0 +1,84 @@
+/* Import: Inter */
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300..700;1,300..700&family=Inter:wght@300..700&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap);
+/* Import: Onest */
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Light"),url('../fonts/onest/Onest-Light.woff2');
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Light"),url('../fonts/onest/Onest-Light.woff2');
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Regular"),url('../fonts/onest/Onest-Regular.woff2');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Medium"),url('../fonts/onest/Onest-Medium.woff2');
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest SemiBold"),url('../fonts/onest/Onest-SemiBold.woff2');
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Bold"),url('../fonts/onest/Onest-Bold.woff2');
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+/* Import: Satoshi */
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Light"),url('../fonts/satoshi/Satoshi-Light.woff2');
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Regular"),url('../fonts/satoshi/Satoshi-Regular.woff2');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Medium"),url('../fonts/satoshi/Satoshi-Medium.woff2');
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Bold"),url('../fonts/satoshi/Satoshi-Bold.woff2');
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
