@@ -18,6 +18,9 @@
 
         @yield('content')
 
+        <!-- CTA -->
+        @include('partials.cta')
+
         <!-- Footer -->
         @include('partials.footer')
 
