@@ -107,36 +107,27 @@
                             <div>
                                 <div class="panel vstack gap-4">
                                     <div class="panel vstack gap-3">
-                                        <h1 class="display-4 sm:display-3 xl:display-2 m-0">Local Challenges. Global Standards. African Solutions.</h1>
-                                        <p class="fs-4">At Cortia, we don't just build apps; we build trust.
-                                            We identify the systemic bottlenecks fraud, financial exclusion,
-                                            and administrative decay and replace them with transparent,
-                                            efficient digital frameworks designed specifically for the African landscape.
+                                        <h1 class="display-4 sm:display-3 xl:display-2 m-0">Local Challenges. Global Standards.</h1>
+                                        <p class="fs-4">We engineer foundational trust for African industries. By replacing systemic bottlenecks like fraud and administrative inefficiency with high-integrity digital frameworks, we build systems designed specifically for the African landscape.
                                         </p>
                                     </div>
                                     <div class="panel">
                                         <ul class="list nav-y gap-3 text-start">
-                                            <li class="hstack itmes-center gap-1">
+                                            <li class="hstack items-center gap-1">
                                                 <i class="icon icon-2 unicon-checkmark-outline text-secondary"></i>
-                                                <span class="fs-4 fw-light">Transparency by Design: We eliminate the "trust gap"
-                                                    in real estate and finance by providing immutable records and verified data,
-                                                    ensuring that what you see is exactly what you own.
-                                                </span>
+                                                <span class="fs-4 fw-light"><strong>Transparency by Design:</strong> Eliminating trust gaps in finance and real estate with immutable data.</span>
                                             </li>
-                                            <li class="hstack itmes-center gap-1">
+                                            <li class="hstack items-center gap-1">
                                                 <i class="icon icon-2 unicon-checkmark-outline text-secondary"></i>
-                                                <span class="fs-4 fw-light">Radical Affordability: Our infrastructure is engineered to lower the barrier to entry,
-                                                    making essential services like insurance and education management accessible to every tier of society.</span>
+                                                <span class="fs-4 fw-light"><strong>Radical Affordability:</strong> Lowering barriers of entry to make essential protection accessible to all.</span>
                                             </li>
-                                            <li class="hstack itmes-center gap-1">
+                                            <li class="hstack items-center gap-1">
                                                 <i class="icon icon-2 unicon-checkmark-outline text-secondary"></i>
-                                                <span class="fs-4 fw-light">Localized Engineering: We don't copy-paste Western models; our frameworks are built
-                                                    specifically to navigate and solve the unique administrative and infrastructural nuances of the African market.</span>
+                                                <span class="fs-4 fw-light"><strong>Localized Engineering:</strong> Custom-built solutions that navigate regional infrastructure realities.</span>
                                             </li>
-                                            <li class="hstack itmes-center gap-1">
+                                            <li class="hstack items-center gap-1">
                                                 <i class="icon icon-2 unicon-checkmark-outline text-secondary"></i>
-                                                <span class="fs-4 fw-light">Unified Digital Ecosystems: From automated bursary systems to secure land parcels,
-                                                    we consolidate fragmented processes into a single, high-integrity platform that operates with 100% reliability.</span>
+                                                <span class="fs-4 fw-light"><strong>Unified Ecosystems:</strong> Consolidating fragmented operations into reliable, single-source platforms.</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -233,6 +224,7 @@
                                 data-uc-swiper-l="items: 3; gap: 32;">
                                 <div class="swiper-wrapper"
                                     data-anime="onview: -100; targets: >*; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 600});">
+                                    <!-- Slide 1 -->
                                     <div class="swiper-slide">
                                         <div class="project-item panel vstack gap-3 bg-gray-25 dark:bg-gray-800 p-3 lg:p-4 rounded-2">
                                             <header class="panel hstack justify-between items-start gap-2">
@@ -255,6 +247,7 @@
                                             </p>
                                         </div>
                                     </div>
+                                    <!-- Slide 2 -->
                                     <div class="swiper-slide">
                                         <div class="project-item panel vstack gap-3 bg-gray-25 dark:bg-gray-800 p-3 lg:p-4 rounded-2">
                                             <header class="panel hstack justify-between items-start gap-2">
@@ -273,9 +266,78 @@
                                                 <a class='position-cover z-999' href='{{ url('/projects') }}'></a>
                                             </figure>
                                             <p class="desc fs-6 opacity-80"><b>The Solution:</b> A micro-insurance platform that breaks down payments into insignificant, manageable amounts, ensuring that even the smallest assets are protected. <br> <br>
-                                                <b>Key Feature:</b> Pays-as-you-go and instant policy activation.
+                                                <b>Key Feature:</b> Pays-as-you-go and instant policy activation.</p>
                                         </div>
                                     </div>
+                                    <!-- Slide 3 -->
+                                    <div class="swiper-slide">
+                                        <div class="project-item panel vstack gap-3 bg-gray-25 dark:bg-gray-800 p-3 lg:p-4 rounded-2">
+                                            <header class="panel hstack justify-between items-start gap-2">
+                                                <div class="vstack gap-1">
+                                                    <h3 class="title h5 lg:h4 m-0 text-dark dark:text-white">
+                                                        <a href="{{ url('/projects') }}" class="text-none text-inherit">University Infrastructure | The All-in-One Campus Gateway.</a>
+                                                    </h3>
+                                                    <p class="desc fs-6 opacity-80"><b>The Problem:</b> Educational institutions struggle with fragmented, outdated portals that hinder administrative efficiency and student success.</p>
+                                                </div>
+                                                <a href="{{ url('/projects') }}" class="link btn bg-primary text-white dark:bg-white dark:text-primary w-40px h-40px p-0 rounded-circle flex-shrink-0 mt-1">
+                                                    <i class="icon unicon-arrow-up-right"></i>
+                                                </a>
+                                            </header>
+                                            <figure class="featured-image m-0 rounded ratio ratio-4x3 uc-transition-toggle overflow-hidden mt-1">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="{{ asset('assets/images/solutions/cortia-ecosystem-vector33.png') }}" alt="Real estate infrastructure and property verification">
+                                                <a class='position-cover z-999' href='{{ url('/projects') }}'></a>
+                                            </figure>
+                                            <p class="desc fs-6 opacity-80"><b>The Solution:</b> A unified technical ecosystem merging Bursary, Registry, Student Records, and Staff Portals into one seamless experience.<br><br>
+                                                <b>Key Feature:</b> Custom-integrated CBT (Computer Based Testing) systems and real-time result processing.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Slide 4 (Loop Duplicate of Slide 1) -->
+                                    <div class="swiper-slide">
+                                        <div class="project-item panel vstack gap-3 bg-gray-25 dark:bg-gray-800 p-3 lg:p-4 rounded-2">
+                                            <header class="panel hstack justify-between items-start gap-2">
+                                                <div class="vstack gap-1">
+                                                    <h3 class="title h5 lg:h4 m-0 text-dark dark:text-white">
+                                                        <a href="{{ url('/projects') }}" class="text-none text-inherit">Landcerta | Restoring Trust in Real Estate.</a>
+                                                    </h3>
+                                                    <p class="desc fs-6 opacity-80"><b>The Problem:</b> Fragmented records and "double-selling" scams have made land ownership a high-risk venture.</p>
+                                                </div>
+                                                <a href="{{ url('/projects') }}" class="link btn bg-primary text-white dark:bg-white dark:text-primary w-40px h-40px p-0 rounded-circle flex-shrink-0 mt-1">
+                                                    <i class="icon unicon-arrow-up-right"></i>
+                                                </a>
+                                            </header>
+                                            <figure class="featured-image m-0 rounded ratio ratio-4x3 uc-transition-toggle overflow-hidden mt-1">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="{{ asset('assets/images/solutions/cortia-ecosystem-vector.png') }}" alt="School infrastructure platform">
+                                                <a class='position-cover z-999' href='{{ url('/projects') }}'></a>
+                                            </figure>
+                                            <p class="desc fs-6 opacity-80"><b>The Solution:</b> A transparent verification platform that allows buyers to access verified data and true property history before a single Naira is spent. <br> <br>
+                                                <b>Key Feature:</b> Parcel-based tracking and end-to-end documentation transparency.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Slide 5 (Loop Duplicate of Slide 2) -->
+                                    <div class="swiper-slide">
+                                        <div class="project-item panel vstack gap-3 bg-gray-25 dark:bg-gray-800 p-3 lg:p-4 rounded-2">
+                                            <header class="panel hstack justify-between items-start gap-2">
+                                                <div class="vstack gap-1">
+                                                    <h3 class="title h5 lg:h4 m-0 text-dark dark:text-white">
+                                                        <a href="{{ url('/projects') }}" class="text-none text-inherit">Coresure | Insurance for Everyone, Everywhere.</a>
+                                                    </h3>
+                                                    <p class="desc fs-6 opacity-80"><b>The Problem:</b> High premiums and opaque payout processes have traditionally locked the "less privileged" out of the safety net of insurance.</p>
+                                                </div>
+                                                <a href="{{ url('/projects') }}" class="link btn bg-primary text-white dark:bg-white dark:text-primary w-40px h-40px p-0 rounded-circle flex-shrink-0 mt-1">
+                                                    <i class="icon unicon-arrow-up-right"></i>
+                                                </a>
+                                            </header>
+                                            <figure class="featured-image m-0 rounded ratio ratio-4x3 uc-transition-toggle overflow-hidden mt-1">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="{{ asset('assets/images/solutions/cortia-ecosystem-vector22.png') }}" alt="Land infrastructure and verification">
+                                                <a class='position-cover z-999' href='{{ url('/projects') }}'></a>
+                                            </figure>
+                                            <p class="desc fs-6 opacity-80"><b>The Solution:</b> A micro-insurance platform that breaks down payments into insignificant, manageable amounts, ensuring that even the smallest assets are protected. <br> <br>
+                                                <b>Key Feature:</b> Pays-as-you-go and instant policy activation.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Slide 6 (Loop Duplicate of Slide 3) -->
                                     <div class="swiper-slide">
                                         <div class="project-item panel vstack gap-3 bg-gray-25 dark:bg-gray-800 p-3 lg:p-4 rounded-2">
                                             <header class="panel hstack justify-between items-start gap-2">
@@ -341,24 +403,9 @@
                                                 </div>
                                                 <div class="sm:col">
                                                     <div class="panel mt-2 sm:mt-0">
-                                                        <div class="vstack sm:hstack gap-5 sm:gap-3">
-                                                            <div class="panel vstack gap-2 border-top sm:border-top-0 pt-5 sm:pt-0">
-                                                                <ul class="nav-y gap-2 fs-5 lg:fs-6 xl:fs-5">
-                                                                    <li class="hstack items-start gap-2">
-                                                                        <i class="cstack w-24px h-24px bg-primary text-white dark:bg-white dark:text-primary rounded-circle unicon-checkmark fw-bold"></i>
-                                                                        <span class="d-inline">Deliver a definitive engineering ecosystem</span>
-                                                                    </li>
-                                                                    <li class="hstack items-start gap-2">
-                                                                        <i class="cstack w-24px h-24px bg-primary text-white dark:bg-white dark:text-primary rounded-circle unicon-checkmark fw-bold"></i>
-                                                                        <span class="d-inline">Bridge physical assets and digital oversight</span>
-                                                                    </li>
-                                                                    <li class="hstack items-start gap-2">
-                                                                        <i class="cstack w-24px h-24px bg-primary text-white dark:bg-white dark:text-primary rounded-circle unicon-checkmark fw-bold"></i>
-                                                                        <span class="d-inline">Ensure mission-critical service reliability</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
+                                                        <p class="fs-5 lg:fs-6 xl:fs-5 m-0 lh-base fw-light">
+                                                            To engineer high-integrity digital infrastructure that bridges administrative gaps in Africa's critical sectors. We build resilient, transparent, and radically affordable frameworks that replace systemic trust deficits with absolute operational certainty.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -375,24 +422,9 @@
                                                 </div>
                                                 <div class="sm:col">
                                                     <div class="panel mt-2 sm:mt-0">
-                                                        <div class="vstack sm:hstack gap-5 sm:gap-3">
-                                                            <div class="panel vstack gap-2 border-top sm:border-top-0 pt-5 sm:pt-0">
-                                                                <ul class="nav-y gap-2 fs-5 lg:fs-6 xl:fs-5">
-                                                                    <li class="hstack items-start gap-2">
-                                                                        <i class="cstack w-24px h-24px bg-white text-primary rounded-circle unicon-checkmark fw-bold"></i>
-                                                                        <span class="d-inline">Power Africa's essential industries securely</span>
-                                                                    </li>
-                                                                    <li class="hstack items-start gap-2">
-                                                                        <i class="cstack w-24px h-24px bg-white text-primary rounded-circle unicon-checkmark fw-bold"></i>
-                                                                        <span class="d-inline">Maintain high-integrity, immutable architecture</span>
-                                                                    </li>
-                                                                    <li class="hstack items-start gap-2">
-                                                                        <i class="cstack w-24px h-24px bg-white text-primary rounded-circle unicon-checkmark fw-bold"></i>
-                                                                        <span class="d-inline">Drive sustainable institutional growth</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
+                                                        <p class="fs-5 lg:fs-6 xl:fs-5 m-0 lh-base fw-light text-white opacity-90">
+                                                            To become the definitive technological operating system powering Africa's property, insurance, and educational landscapes fostering a frictionless economy where every asset is verified and every transaction is secure.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -487,7 +519,7 @@
 <!-- Section end -->
 
 <!-- Section start -->
-<div id="section_clients" class="section-clients section panel overflow-hidden swiper-parent">
+<!-- <div id="section_clients" class="section-clients section panel overflow-hidden swiper-parent">
     <div class="section-outer panel py-0 lg:py-0 xl:py-0">
         <div class="container max-w-2xl">
             <div class="section-inner panel"
@@ -679,7 +711,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Section End -->
 
@@ -784,7 +816,7 @@
                 <div
                     class="panel vstack items-center gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-700px xl:max-w-900px mx-auto text-center">
                     <span class="px-3 py-1 fs-7 fw-bold border rounded-pill border-primary text-primary dark:text-secondary dark:border-secondary uppercase tracking-wider bg-primary-10 dark:bg-gray-800">
-                        Our Core Focus
+                        Our Blogs
                     </span>
                     <h2 class="display-3 sm:display-2 m-0">Architecting Africa's Digital Ecosystems</h2>
                     <div class="panel vstack gap-2 mt-2">
