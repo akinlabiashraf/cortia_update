@@ -19,20 +19,20 @@
                 <div class="uc-navbar-center">
                     <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-semibold">
                         <li>
-                            <a href="{{ url('/services') }}">Infrastructure Stack <span data-uc-navbar-parent-icon></span></a>
-                            <div class="uc-navbar-dropdown"
-                                data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; duration: 150;">
+                            <a >Infrastructure Stack <span data-uc-navbar-parent-icon></span></a>
+                            <div class="uc-navbar-dropdown w-600px"
+                                data-uc-drop="mode: click; offset: 10; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 250;">
                                 <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
                                     <div>
                                         <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
-                                            <div>
+                                            <div class="col-7">
                                                 <ul class="uc-nav uc-navbar-dropdown-nav">
                                                     <li class="uc-nav-header">Our Ventures</li>
                                                     <li>
-                                                        <a href="{{ url('/projects') }}#landcerta">
+                                                        <a href="{{ url('/landcerta') }}">
                                                             <div class="hstack gap-2">
-                                                                <div class="w-32px h-32px cstack bg-primary text-white rounded-1 shadow-xs">
-                                                                    <i class="unicon-building icon-1"></i>
+                                                                <div class="w-32px h-32px cstack bg-primary rounded-1 shadow-xs p-1">
+                                                                    <img src="{{ asset('assets/images/icons/machine-learning.svg') }}" class="w-100 h-100 object-contain" alt="LandCerta Icon">
                                                                 </div>
                                                                 <div class="vstack gap-0">
                                                                     <span class="fw-bold">LandCerta</span>
@@ -42,10 +42,10 @@
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="{{ url('/projects') }}#coresure">
+                                                        <a href="{{ url('/coresure') }}">
                                                             <div class="hstack gap-2">
-                                                                <div class="w-32px h-32px cstack bg-secondary text-primary rounded-1 shadow-xs">
-                                                                    <i class="unicon-shield icon-1"></i>
+                                                                <div class="w-32px h-32px cstack bg-secondary rounded-1 shadow-xs p-1">
+                                                                    <img src="{{ asset('assets/images/icons/chart-notification.svg') }}" class="w-100 h-100 object-contain" alt="CoreSure Icon">
                                                                 </div>
                                                                 <div class="vstack gap-0">
                                                                     <span class="fw-bold">CoreSure</span>
@@ -55,10 +55,10 @@
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="{{ url('/projects') }}#oii">
+                                                        <a href="{{ url('/eduos') }}">
                                                             <div class="hstack gap-2">
-                                                                <div class="w-32px h-32px cstack bg-gray-100 text-dark rounded-1 shadow-xs">
-                                                                    <i class="unicon-education icon-1"></i>
+                                                                <div class="w-32px h-32px cstack bg-gray-200 rounded-1 shadow-xs p-1">
+                                                                    <img src="{{ asset('assets/images/icons/bank.svg') }}" class="w-100 h-100 object-contain" alt="OIIS Icon">
                                                                 </div>
                                                                 <div class="vstack gap-0">
                                                                     <span class="fw-bold">OII</span>
@@ -69,11 +69,12 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="col-6">
-                                                <div class="panel p-3 bg-gray-25 dark:bg-gray-800 rounded-1">
-                                                    <h5 class="h6 fw-bold mb-1">Infrastructure-as-a-Service</h5>
-                                                    <p class="fs-7 opacity-70 mb-2">Cortia serves as the foundational engine powering specialized industries through robust technological stacks.</p>
-                                                    <a href="{{ url('/services') }}" class="uc-link fw-bold fs-7">Learn about our Ecosystem <i class="unicon-arrow-right ms-narrow"></i></a>
+                                            <div class="col-5">
+                                                <div class="panel w-200 h-200 overflow-hidden rounded bg-primary-10 dark:bg-gray-800 p-3 vstack justify-center items-center text-center">
+                                                    <img src="{{ asset('assets/images/solutions/cortia_ecosystem_updated.png') }}" class="w-100 h-auto rounded" style="max-width: 200px;" alt="Cortia Ecosystem">
+                                                    <h6 class="mt-3 mb-1 text-primary dark:text-white fw-bold">Cortia Ecosystem</h6>
+                                                    <p class="fs-7 m-0 opacity-70">Powering African Industry</p>
+                                                    <a class="position-cover" href="{{ url('/services') }}"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,101 +82,27 @@
                                 </div>
                             </div>
                         </li>
+                        <li><a href="{{ url('/services') }}">Case Study</a></li>
                         <li>
-                            <a href="{{ url('/services') }}">Solutions <span data-uc-navbar-parent-icon></span></a>
-                            <div class="uc-navbar-dropdown"
-                                data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; duration: 150;">
-                                <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
-                                    <div>
-                                        <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
-                                            <div>
-                                                <ul class="uc-nav uc-navbar-dropdown-nav">
-                                                    <li class="uc-nav-header">Our Ventures</li>
-                                                    <li>
-                                                        <a href="{{ url('/projects') }}#landcerta">
-                                                            <div class="hstack gap-2">
-                                                                <div class="w-32px h-32px cstack bg-primary text-white rounded-1 shadow-xs">
-                                                                    <i class="unicon-building icon-1"></i>
-                                                                </div>
-                                                                <div class="vstack gap-0">
-                                                                    <span class="fw-bold">Real Estate</span>
-                                                                    <span class="fs-7 opacity-70">Property Verification</span>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{{ url('/projects') }}#coresure">
-                                                            <div class="hstack gap-2">
-                                                                <div class="w-32px h-32px cstack bg-secondary text-primary rounded-1 shadow-xs">
-                                                                    <i class="unicon-shield icon-1"></i>
-                                                                </div>
-                                                                <div class="vstack gap-0">
-                                                                    <span class="fw-bold">CoreSure</span>
-                                                                    <span class="fs-7 opacity-70">Insurance Infrastructure</span>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{{ url('/projects') }}#oii">
-                                                            <div class="hstack gap-2">
-                                                                <div class="w-32px h-32px cstack bg-gray-100 text-dark rounded-1 shadow-xs">
-                                                                    <i class="unicon-education icon-1"></i>
-                                                                </div>
-                                                                <div class="vstack gap-0">
-                                                                    <span class="fw-bold">Institutional OS</span>
-                                                                    <span class="fs-7 opacity-70">University Infrastructure</span>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-7">
-                                                <div class="panel overflow-hidden rounded-1 border d-flex items-center justify-center bg-gray-25 dark:bg-gray-900"
-                                                    style="max-height: 160px; width: 100%; margin: auto;">
-                                                    <img src="{{ asset('assets/images/solutions/cortia-ecosystem-vector.png') }}"
-                                                        alt="Cortia Solutions Ecosystem Diagram"
-                                                        class="w-100 h-100 object-contain p-2">
-                                                </div>
-                                            </div>
-
+                            <a href="{{ url('/about') }}">Company <span data-uc-navbar-parent-icon></span></a>
+                            <div class="uc-navbar-dropdown w-400px" data-uc-drop="mode: click; offset: 10; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 250;">
+                                <div class="row child-cols g-4" data-uc-grid>
+                                    <div class="col-6">
+                                        <ul class="uc-nav uc-navbar-dropdown-nav">
+                                            <li class="uc-nav-header">Who We Are</li>
+                                            <li><a href="{{ url('/about') }}">About Cortia</a></li>
+                                            <li><a href="{{ url('/about') }}#core-values">Our Team</a></li>
+                                            <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="panel w-100 h-100 overflow-hidden rounded bg-secondary-10 dark:bg-gray-800 p-3 vstack justify-center items-center text-center">
+                                            <img src="{{ asset('assets/images/common/users.png') }}" class="w-100 h-auto" style="max-width: 80px;" alt="Cortia Team">
+                                            <h6 class="mt-2 mb-0 text-secondary dark:text-white fw-bold">Our People</h6>
+                                            <a class="position-cover" href="{{ url('/about') }}#core-values"></a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <!-- <li>
-                            <a href="{{ url('/services') }}">Solutions <span data-uc-navbar-parent-icon></span></a>
-                            <div class="uc-navbar-dropdown w-200px" data-uc-drop="mode: click; offset: 0; animation: uc-animation-slide-top-small; duration: 150;">
-                                <ul class="uc-nav uc-navbar-dropdown-nav">
-                                <li><a href="{{ url('/projects') }}#oii">Education</a></li>
-                                    <li><a href="{{ url('/projects') }}#landcerta">Real Estate</a></li>
-                                    <li><a href="{{ url('/projects') }}#coresure">Insurance</a></li>
-                                </ul>
-                            </div>
-                        </li> -->
-                        <li>
-                            <a href="#">Capabilities <span data-uc-navbar-parent-icon></span></a>
-                            <div class="uc-navbar-dropdown w-250px" data-uc-drop="mode: click; offset: 0; animation: uc-animation-slide-top-small; duration: 150;">
-                                <ul class="uc-nav uc-navbar-dropdown-nav">
-                                    <li><a href="#">AI Solutions</a></li>
-                                    <li><a href="#">Mobile/Web Development</a></li>
-                                    <li><a href="#">IT Consulting</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="{{ url('/services') }}">Ecosystem</a></li>
-                        <li>
-                            <a href="{{ url('/about') }}">About Us <span data-uc-navbar-parent-icon></span></a>
-                            <div class="uc-navbar-dropdown w-200px" data-uc-drop="mode: click; offset: 0; animation: uc-animation-slide-top-small; duration: 150;">
-                                <ul class="uc-nav uc-navbar-dropdown-nav">
-                                    <li><a href="{{ url('/about') }}#mission-vision">Mission & Vision</a></li>
-                                    <li><a href="{{ url('/about') }}#core-values">Core Values</a></li>
-                                    <li><a href="{{ url('/about') }}#team">Our Team</a></li>
-                                </ul>
                             </div>
                         </li>
                         <li><a href="#">Insights</a></li>

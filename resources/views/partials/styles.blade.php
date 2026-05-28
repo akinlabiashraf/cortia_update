@@ -33,7 +33,7 @@
         /* Bootstrap style variables */
         --bs-primary: #6D23CB;
         --bs-primary-rgb: 109, 35, 203;
-        --bs-secondary: #C084FC;
+        --bs-secondary: #7635caff;
         --bs-secondary-rgb: 192, 132, 252;
         
         /* Uni-core / Main theme variables */
@@ -41,13 +41,15 @@
         --color-primary-rgb: 109, 35, 203;
         --color-primary-600: #5a1da8; /* Hover state */
         --color-primary-100: #F3E8FF; /* Light background */
+        --color-white: #ffffff;
+        --color-black: #000000;
         
-        --color-secondary: #C084FC;
+        --color-secondary: #7635caff;
         --color-secondary-rgb: 192, 132, 252;
         --color-secondary-600: #A855F7;
         
         --uc-primary: #6D23CB;
-        --uc-secondary: #C084FC;
+        --uc-secondary: #7635caff;
     }
 
     /* Helper utility overrides to ensure consistency */
@@ -65,6 +67,18 @@
     
     .bg-primary {
         background-color: var(--color-primary) !important;
+    }
+
+    .bg-primary-100 {
+        background-color: var(--color-primary-100) !important;
+    }
+
+    .bg-white {
+        background-color: var(--color-white) !important;
+    }
+
+    .text-black {
+        color: var(--color-black) !important;
     }
     
     .text-secondary {
