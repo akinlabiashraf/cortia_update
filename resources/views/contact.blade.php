@@ -27,7 +27,7 @@
                                 <div class="order-1 lg:order-0">
                                     <div class="panel overflow-hidden h-100 min-h-350px">
                                         <figure class="panel h-100 m-0 rounded">
-                                            <img class="media-cover image" src="{{ asset('assets/images/template/hero-contact.jpg') }}" alt="Hero image">
+                                            <img class="media-cover image" src="{{ asset('assets/images/template/hero-contact.png') }}" alt="Hero image">
                                         </figure>
                                         <div class="position-cover text-white vstack justify-end p-4 lg:p-6 xl:p-9">
                                             <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-50"></div>

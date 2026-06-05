@@ -12,55 +12,51 @@
                                         <img class="w-200px d-block dark:d-none" src="{{ asset('assets/images/main-logo/logo-light.svg') }}" alt="Logo light">
                                         <img class="w-200px d-none dark:d-block" src="{{ asset('assets/images/main-logo/logo-dark.svg') }}" alt="Logo dark">
                                     </a>
-                                    <p class="fs-4 mt-2">Empowering your projects enhancing your success, every step of the way.</p>
+                                    <p class="fs-6 mt-2">Developing robust, industrial-grade software infrastructure for African education, insurance, and land sectors.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 sm:col">
                             <div class="panel">
-                                <div class="row child-cols-6 sm:child-cols-3 g-2 justify-end">
+                                <div class="row child-cols-6 sm:child-cols-4 g-2 justify-end">
                                     <div>
                                         <div class="panel w-fit">
-                                            <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Main pages</h5>
+                                            <h5 class="uc-nav-header h5 m-0 mb-1 xl:mb-2">Main pages</h5>
                                             <ul class="nav-y gap-1 fw-medium">
-                                                <li><a href='#'>About</a></li>
-                                                <li><a href='#'>Services</a></li>
-                                                <li><a href='#'>Pricing</a></li>
-                                                <li><a href='#'>Blog</a></li>
-                                                <li><a href='#'>Contact</a></li>
+                                                <li><a href='{{ url('/about') }}'>About Us</a></li>
+                                                <li><a href='{{ url('/services') }}'>Services</a></li>
+                                                <li><a href='{{ url('/projects') }}'>Projects</a></li>
+                                                <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="panel w-fit">
-                                            <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Product</h5>
+                                            <h5 class="uc-nav-header h5 m-0 mb-1 xl:mb-2">Infrastructure</h5>
                                             <ul class="nav-y gap-1 fw-medium">
-                                                <li><a href='#'>Marketing</a></li>
-                                                <li><a href='#'>Sales</a></li>
-                                                <li><a href='#'>CMS</a></li>
-                                                <li><a href='#'>Operations</a></li>
+                                                <li><a href='{{ url('/landcerta') }}'>LandCerta</a></li>
+                                                <li><a href='{{ url('/coresure') }}'>CoreSure</a></li>
+                                                <li><a href='{{ url('/eduos') }}'>OII (EduOS)</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="panel w-fit">
-                                            <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Features</h5>
+                                            <h5 class="uc-nav-header h5 m-0 mb-1 xl:mb-2">Capabilities</h5>
                                             <ul class="nav-y gap-1 fw-medium">
-                                                <li><a href='#'>Core feature</a></li>
-                                                <li><a href='#'>Advanced feature</a></li>
-                                                <li><a href='#'>Customization</a></li>
-                                                <li><a href='#'>Update</a></li>
+                                                <li><a href='{{ url('/aisolution') }}'>AI Solutions</a></li>
+                                                <li><a href='{{ url('/development') }}'>Development</a></li>
+                                                <li><a href='{{ url('/contact') }}'>IT Consulting</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="panel w-fit">
-                                            <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Resources</h5>
+                                            <h5 class="uc-nav-header h5 m-0 mb-1 xl:mb-2">Insights</h5>
                                             <ul class="nav-y gap-1 fw-medium">
-                                                <li><a href='#'>Blog</a></li>
-                                                <li><a href='#'>Freelancers</a></li>
-                                                <li><a href='#'>Style guide</a></li>
-                                                <li><a href='#'>Login</a></li>
+                                                <li><a href='{{ url('/events') }}'>Events</a></li>
+                                                <li><a href='{{ url('/gallery') }}'>Gallery</a></li>
+                                                <li><a href='{{ url('/media') }}'>Media</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -76,7 +72,7 @@
                 <div class="panel py-2 sm:py-4 border-top">
                     <div class="vstack items-center gap-2 sm:gap-0 sm:hstack justify-between">
                         <div class="panel text-dark dark:text-white">
-                            <p>© {{ date('Y') }} <a href="#" class="text-secondary text-none">Cortia</a> All Rights Reserved.</p>
+                            <p>© {{ date('Y') }} <a href="{{ url('/') }}" class="text-secondary text-none">Cortia</a> All Rights Reserved.</p>
                         </div>
                         <ul class="nav-x justify-center gap-2">
                             <li><a class="w-32px h-32px cstack bg-primary text-white dark:bg-white dark:text-primary rounded" href="#"><i class="icon icon-1 unicon-logo-linkedin"></i></a></li>

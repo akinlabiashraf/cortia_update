@@ -32,3 +32,15 @@ Route::get('/aisolution', function () {
 Route::get('/development', function () {
     return view('development');
 });
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+Route::get('/events', function () {
+    return view('events');
+});
+Route::get('/services', function () {
+    return view('services');
+});
+Route::get('/media', function () {
+    return view('media');
+});

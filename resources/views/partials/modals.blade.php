@@ -133,37 +133,44 @@
                 <li class="uc-parent">
                     <a href='#'>Infrastructure Stack</a>
                     <ul class="uc-nav-sub">
-                        <li><a href='#'>LandCerta</a></li>
-                        <li><a href='#'>CoreSure</a></li>
-                        <li><a href='#'>OII (University Infrastructure)</a></li>
+                        <li><a href='{{ url('/landcerta') }}'>LandCerta</a></li>
+                        <li><a href='{{ url('/coresure') }}'>CoreSure</a></li>
+                        <li><a href='{{ url('/eduos') }}'>OII (University Infrastructure)</a></li>
                     </ul>
                 </li>
                 <li class="uc-parent">
                     <a href='#'>Solutions</a>
                     <ul class="uc-nav-sub">
-                        <li><a href='#'>Education</a></li>
-                        <li><a href='#'>Real Estate</a></li>
-                        <li><a href='#'>Insurance</a></li>
+                        <li><a href='{{ url('/solutions') }}#education'>Education</a></li>
+                        <li><a href='{{ url('/solutions') }}#real-estate'>Real Estate</a></li>
+                        <li><a href='{{ url('/solutions') }}#insurance'>Insurance</a></li>
                     </ul>
                 </li>
                 <li class="uc-parent">
                     <a href='#'>Capabilities</a>
                     <ul class="uc-nav-sub">
-                        <li><a href='#'>AI Solutions</a></li>
-                        <li><a href='#'>Mobile/Web Development</a></li>
-                        <li><a href='#'>IT Consulting</a></li>
+                        <li><a href='{{ url('/aisolution') }}'>AI Solutions</a></li>
+                        <li><a href='{{ url('/development') }}'>Mobile/Web Development</a></li>
+                        <li><a href='{{ url('/contact') }}'>IT Consulting</a></li>
                     </ul>
                 </li>
-                <li><a href='#'>Ecosystem</a></li>
+                <li><a href='{{ url('/services') }}'>Services</a></li>
                 <li class="uc-parent">
                     <a href='#'>About Us</a>
                     <ul class="uc-nav-sub">
-                        <li><a href='#'>Mission & Vision</a></li>
-                        <li><a href='#'>Core Values</a></li>
-                        <li><a href='#'>Our Team</a></li>
+                        <li><a href='{{ url('/about') }}'>Mission & Vision</a></li>
+                        <li><a href='{{ url('/about') }}#core-values'>Core Values</a></li>
+                        <li><a href='{{ url('/about') }}#core-values'>Our Team</a></li>
                     </ul>
                 </li>
-                <li><a href='#'>Insights</a></li>
+                <li class="uc-parent">
+                    <a href='#'>Insights</a>
+                    <ul class="uc-nav-sub">
+                        <li><a href='{{ url('/events') }}'>Events</a></li>
+                        <li><a href='{{ url('/gallery') }}'>Gallery</a></li>
+                        <li><a href='{{ url('/media') }}'>Media</a></li>
+                    </ul>
+                </li>
                 <li><a href='#'>Get Started</a></li>
                 <li class="hr opacity-10 my-1"></li>
                 <li><a href='#'>Partner with Cortia</a></li>

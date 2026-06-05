@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li><a href="{{ url('/services') }}">Case Study</a></li>
+                        <li><a href="{{ url('/services') }}">Services</a></li>
                         <li>
                             <a href="{{ url('/about') }}">Company <span data-uc-navbar-parent-icon></span></a>
                             <div class="uc-navbar-dropdown w-400px" data-uc-drop="mode: click; offset: 10; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 250;">
@@ -105,7 +105,29 @@
                                 </div>
                             </div>
                         </li>
-                        <li><a href="#">Insights</a></li>
+                        <li>
+                            <a href="{{ url('/about') }}">Insights <span data-uc-navbar-parent-icon></span></a>
+                            <div class="uc-navbar-dropdown w-400px" data-uc-drop="mode: click; offset: 10; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 250;">
+                                <div class="row child-cols g-4" data-uc-grid>
+                                    <div class="col-6">
+                                        <ul class="uc-nav uc-navbar-dropdown-nav">
+                                            <li class="uc-nav-header">Media</li>
+                                            <li><a href="{{ url('/events') }}">Events</a></li>
+                                            <li><a href="{{ url('/gallery') }}">Gallery</a></li>
+                                            <li><a href="{{ url('/media') }}">Media</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="panel w-100 h-100 overflow-hidden rounded bg-secondary-10 dark:bg-gray-800 p-3 vstack justify-center items-center text-center">
+                                            <img src="{{ asset('assets/images/common/users.png') }}" class="w-100 h-auto" style="max-width: 80px;" alt="Cortia Team">
+                                            <h6 class="mt-2 mb-0 text-secondary dark:text-white fw-bold">Our People</h6>
+                                            <a class="position-cover" href="{{ url('/about') }}#core-values"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li><a href="#">Insights</a></li> -->
                     </ul>
                 </div>
                 <div class="uc-navbar-right">

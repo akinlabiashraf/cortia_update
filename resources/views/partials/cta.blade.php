@@ -20,7 +20,7 @@
                 <div class="panel vstack items-center gap-2 lg:gap-3 max-w-500px lg:max-w-900px mx-auto text-center z-99"
                     data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: anime.stagger(100, {start: 200});">
                     <h2 class="display-5 sm:display-3 md:display-4 lg:display-2 m-0 text-white">Cortia: Solving
-                        <span class="text-secondary">Local Problems</span> with Digital Solutions.
+                        <span style="color: #FDE84D;">Local Problems</span> with Digital Solutions.
                     </h2>
                     <p class="fs-6 sm:fs-4 text-white">We build targeted digital infrastructure to dismantle real-world African challenges. From securing land ownership to making insurance accessible and digitizing essential institutions, we engineer trust where it matters most.</p>
                     <div class="panel mt-2 vstack items-center">

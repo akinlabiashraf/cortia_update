@@ -10,9 +10,9 @@
             <div class="section-outer panel pt-9 lg:pt-10">
                 <div class="container sm:max-w-xl xl:max-w-2xl">
                     <div class="panel section-inner d-flex flex-column items-center justify-center gap-4" data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 650;">
-                        <img src="{{ asset('assets/images/common/common-01.svg') }}" alt="Icon" class="common-01 d-inline-block position-absolute w-64px xl:w-80px text-yellow-400  d-none xl:d-block z-999" data-uc-svg>
+                        <!-- <img src="{{ asset('assets/images/common/common-01.svg') }}" alt="Icon" class="common-01 d-inline-block position-absolute w-64px xl:w-80px text-yellow-400  d-none xl:d-block z-999" data-uc-svg>
                         <img src="{{ asset('assets/images/common/shape-02.svg') }}" alt="Icon" class="shape-02 position-absolute w-80px xl:w-64px text-yellow-400 d-none xl:d-block z-999">
-                        <img src="{{ asset('assets/images/common/shape-01.svg') }}" alt="Icon" class="shape-01 position-absolute w-64px xl:w-80px text-yellow-400  d-none xl:d-block z-999">
+                        <img src="{{ asset('assets/images/common/shape-01.svg') }}" alt="Icon" class="shape-01 position-absolute w-64px xl:w-80px text-yellow-400  d-none xl:d-block z-999"> -->
                         <div class="panel" data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 650;">
                             <div class="panel vstack justify-center gap-3 text-center max-w-950px">
                                 <div class="panel vstack items-center">
@@ -65,7 +65,7 @@
         <!-- Header end -->
 
         <!-- Section start -->
-        <div class="section-customers panel overflow-hidden">
+        <!-- <div class="section-customers panel overflow-hidden">
             <div class="section-outer panel py-6 lg:py-8 xl:py-10">
                 <div class="container sm:max-w-xl xl:max-w-2xl">
                     <div class="section-inner panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Section end -->
 
         <!-- Mission & Vision start -->
@@ -140,9 +140,9 @@
                                         <div class="panel vstack gap-3">
                                             <h2 class="display-3 m-0">Mission & Vision</h2>
                                             <p class="fs-4 fw-bold">Our Mission</p>
-                                            <p class="fs-5">To develop and deploy high-integrity, industrial-grade software infrastructure that powers critical sectors across Africa, enabling secure, transparent, and efficient operations.</p>
+                                            <p class="fs-5">To engineer high-integrity digital infrastructure that bridges administrative gaps in Africa's critical sectors. We build resilient, transparent, and radically affordable frameworks that replace systemic trust deficits with absolute operational certainty.</p>
                                             <p class="fs-4 fw-bold mt-2">Our Vision</p>
-                                            <p class="fs-5">To be the foundational digital backbone of Africa, pioneering robust technological stacks that foster trust, innovation, and sustainable growth in education, insurance, and real estate.</p>
+                                            <p class="fs-5">To become the definitive technological operating system powering Africa's property, insurance, and educational landscapes fostering a frictionless economy where every asset is verified and every transaction is secure.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -167,7 +167,7 @@
                             <div class="row sm:child-cols-6 xl:child-cols-3 g-4 col-match">
                                 <div>
                                     <div class="panel vstack gap-4 bg-primary-25 dark:bg-primary dark:text-white rounded p-4">
-                                        <span><i class="unicon-shield-check icon-3 text-secondary"></i></span>
+                                        <span><i class="unicon-earth icon-3 text-secondary"></i></span>
                                         <div class="panel vstack gap-2 px-1">
                                             <h3 class="h2 lg:h3 m-0">Integrity</h3>
                                             <p class="fs-3 lg:fs-5">We build resilient, secure, and transparent infrastructure that our partners can trust without question.</p>
@@ -176,7 +176,7 @@
                                 </div>
                                 <div>
                                     <div class="panel vstack gap-4 bg-primary-25 dark:bg-primary dark:text-white rounded p-4">
-                                        <span><i class="unicon-diamond icon-3 text-secondary"></i></span>
+                                        <span><i class="unicon-star icon-3 text-secondary"></i></span>
                                         <div class="panel vstack gap-2 px-1">
                                             <h3 class="h2 lg:h3 m-0">Excellence</h3>
                                             <p class="fs-3 lg:fs-5">We strive for the highest quality in everything we create, from code to customer relationships.</p>
@@ -275,7 +275,7 @@
                             <div>
                                 <div class="panel bg-primary-25 dark:bg-gray-800 rounded overflow-hidden">
                                     <figure class="featured-image m-0 rounded ratio ratio-1x1 overflow-hidden rounded-bottom-0 ">
-                                        <img class="media-cover image " src="{{ asset('assets/images/avatars/01.jpg') }}" alt="Mutiullahi Tesleem">
+                                        <img class="media-cover image " src="{{ asset('assets/images/avatars/01.jpeg') }}" alt="Mutiullahi Tesleem">
                                     </figure>
                                     <div class="panel p-3 pb-0">
                                         <div class="panel vstack gap-1 text-center pb-3">
